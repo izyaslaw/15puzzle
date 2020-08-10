@@ -1,0 +1,15 @@
+program FifteenPuzzle;
+
+uses
+  Forms,
+  Unit1 in '..\пятнашки\Unit1.pas' {main},
+  Unit3 in '..\пятнашки\Unit3.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.Title := 'Пятнашки';
+  Application.CreateForm(Tmain, main);
+  Application.Run;
+end.
